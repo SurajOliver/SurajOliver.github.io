@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .minw { min-width: 500px;}
+    </style>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+
+</head>
+<body>
+    <div id="container" class="flex flex-wrap center">
+        <article class="minw pa3 pb1 ml3 mw5 mw6-ns hidden ba mv4 shadow-5 minw bg-washed-blue">
+            <h1 class="f4 bg-dark-blue washed-blue mv0 pv2 ph3">To Do</h1>
+            <ul class="list pa0 ma0"></ul>
+            <div class="pa2 mv0 cf">
+                <input class="f6 f5-l input-reset bn fl black-80 bg-light-yellow pa3 lh-solid w-100  w-75-m w-80-l br2-ns br--left-ns" id="item1" type="text" placeholder="enter new to do activities" />
+                <input class="f6 f5-l button-reset fl pv3 tc bn bg-animate bg-black-70 hover-bg-black white pointer w-100 w-25-m w-20-l br2-ns br--right-ns" onclick="addItem()" type="button" value="Add Item">
+            </div>            
+        </article>
+        <article class="pa3 pb1 ml3 mw5 mw6-ns hidden ba mv4 shadow-5 minw bg-washed-green">
+            <h1 class="f4 bg-dark-green washed-green mv0 pv2 ph3">DOING</h1>
+            <ul class="list pa0 ma0"></ul>
+        </article>
+        <article class="pa3 pb1 ml3 mw5 mw6-ns hidden ba mv4 shadow-5 minw bg-washed-red">
+                <h1 class="f4 bg-orange washed-red mv0 pv2 ph3">COMPLETED</h1>
+                <ul class="list pa0 ma0"></ul>
+        </article>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

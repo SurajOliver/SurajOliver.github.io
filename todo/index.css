@@ -1,0 +1,177 @@
+
+body {
+    margin: 0px;
+    background-image: linear-gradient(to right, pink, purple);
+}
+
+#container {
+    display: inline-block;
+    margin: 0px;
+    height: 800px;
+    padding: 1em 1em;
+    
+    /* overflow: auto; */
+    /* padding-top: 1em; */
+    
+}
+
+.dib { display: inline-block; }
+.fl { float: left;  _display: inline; }
+.bg-green { background-color: #19A974 }
+.w-30 {  width:  28%%; }
+.w4 {    width: 8rem; }
+.w-two-thirds { width: calc(100% / 1.5); }
+.w-auto {    width: auto; }
+.shadow-5 { box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); }
+.br3 {        border-radius: .5rem; }
+/* width scale */
+.w1 {    width: 1rem; }
+.w2 {    width: 2rem; }
+.w3 {    width: 4rem; }
+.w4 {    width: 8rem; }
+.w5 {    width: 16rem; }
+/* f4 bold center mw5 */
+.auto {
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto;
+}
+.f4 { font-size: 1.25rem; }
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+.mw5 {
+    max-width: 16rem;
+}
+/* list pl0 ml0 center mw5 ba b--light-silver br3 */
+.list {
+    list-style-type: none;
+}
+.pl0 {
+    padding-left: 0;
+}
+.ml0 {
+    margin-left: 0;
+}
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+.b--light-silver {
+    border-color: #aaa;
+}
+.br3 {
+    border-radius: .5rem;
+}
+
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.ml2  {  margin-left: 0.5rem; }
+.ml1  { margin-left: 0.25rem; }
+
+
+  .pa3 { padding: 1rem; }
+  .ma2  {  margin: .5rem; }
+  .grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .grow:hover,
+  .grow:focus {
+    transform: scale(1.05);
+  }
+  
+  .grow:active {
+    transform: scale(.90);
+  }
+.minw-300 { min-width: 300px; } 
+
+.todo {
+    height: 75vh;
+    min-width: 300px;
+}
+
+/* input-reset ba b--black-20 pa2 mb2 db w-100 */
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+.b--black-20 {
+    border-color: rgba(0, 0, 0, .2);
+}
+.pa2 {
+    padding: .5rem;
+}
+.mb2 {
+    margin-bottom: .5rem;
+}
+.db {
+    display: block;
+}
+.w-100 {
+    width: 100%;
+}
+.w-80 { width: 80%; }
+
+/* li {
+    list-style-type: none;
+    margin-bottom: .25em;
+}
+
+ul {
+    padding-left: 0px;
+} */
+
+/**** Tachyons tags *****/
+.tc  { text-align: center; }
+.center { margin-right: auto; margin-left: auto;}
+
+/* #center {
+    background-color: lightgoldenrodyellow;
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding: 0px 20px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* display: inline-block;
+}
+
+#right {
+    background-color: grey;
+    width: 30%;
+    margin-right: 0;
+    display: inline-block;
+} */
+
+/* .heading {
+    text-align: center;
+    color: cadetblue;
+} */
+/* 
+#button1 {
+    margin-top: 10px;
+    padding: 5px 40px;
+}
+
+#item1 {
+    width: 200px;
+}
+
+ul {
+    padding-left: 0px;
+} */ 
