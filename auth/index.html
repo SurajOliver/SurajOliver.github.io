@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Authentication</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
+
+</head>
+    <body>
+      <main class="pa4 black-80">
+        <ul class="pa0 ma0 list fr">
+          <!-- <li class="dib"><a href="">Sign In</a></li> -->
+          <!-- <li class="dib"><a href="">Register</a></li> -->
+          <li id="signout" class="dib"><a href="#">Sign Out</a></li>
+        </ul>
+        <form class="measure center">
+          <fieldset id="sign_up" class="ba b--transparent ph0 mh0">
+            <legend class="f4 fw6 ph0 mh0">Sign In</legend>
+            <div class="mt3">
+              <label class="db fw6 lh-copy f6" for="email-address">Email</label>
+              <input class="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"
+                id="email-address">
+            </div>
+            <div class="mv3">
+              <label class="db fw6 lh-copy f6" for="password">Password</label>
+              <input class="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"
+                id="password">
+            </div>
+          </fieldset>
+          <div class="">
+            <input id="signin" class="signin b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="button" value="Sign in">
+            <input id="signup" class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="button" value="Register">
+          
+          </div>
+          <div class="lh-copy mt3 dn">
+            <a href="#0" class="f6 link dim black db">Sign up</a>
+            <a href="#0" class="f6 link dim black db">Forgot your password?</a>
+          </div>
+        </form>
+      </main>
+      <p id="message" class="f3 pl7 ml7"></p>
+      <script type="text/javascript" src="script.js" ></script>
+    </body>
+</html>
